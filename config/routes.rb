@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
 
   root 'home#index'
+
+  post '/get_day' => 'home#get_day'
+
+
+
+  resources :violations
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
