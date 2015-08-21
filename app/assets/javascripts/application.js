@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-// Heatmaps
+// Heatmaps / Initializing 
 // ===================================================================================
 var markers = [];
 var map, heatmap;
@@ -80,7 +80,7 @@ function drop() {
                         '<h3 id="markerHeading" class="markerHeading">Violation and Fine:</h3>' +
                         '<div id="bodyContent">' + 
                         gon.cordinates[i].description + "<br />$ " + gon.cordinates[i].fine +
-                        '</div>'+
+                        '.00</div>'+
                         '</div>';
     var infowindow = new google.maps.InfoWindow({
       content: contentString

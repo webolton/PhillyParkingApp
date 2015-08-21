@@ -13,3 +13,160 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+  font-family: 'Open Sans', 'Arial' sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+header h1 {
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+header ul li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.stat-list {
+  padding-bottom: 10px;
+}
+
+#about-link {
+  float: right;
+  padding-right: 10px;
+}
+
+#about-link a {
+  text-decoration: none;
+  color: #027ea4;
+}
+
+#about-link a:hover {
+  color: #000;
+}
+
+
+#map {
+  height: 100%;
+}
+
+#panel {
+  font-size: 16px;
+  z-index: 5;
+  background-color: #fff;
+  padding-bottom: 5px;
+  margin-left: 30px;
+}
+
+.panel-titles div {
+  display: inline-block;
+}
+
+#map-options-title {
+  margin-left: 241px;
+}
+
+/**
+ * Provide the following styles for both ID and class, where ID represents an
+ * actual existing "panel" with JS bound to its name, and the class is just
+ * non-map content that may already have a different ID with JS bound to its
+ * name.
+ */
+
+#panel, .panel {
+  font-family: 'Roboto','sans-serif';
+  padding-left: 10px;
+}
+
+.panel-buttons {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.panel-buttons li {
+  display: inline-block;
+}
+
+select {
+  border: 1px solid #111;
+  width: 52px;
+  padding: 2px 35px 2px 2px;
+  font-size: 16px;
+  border: 1px solid #027ea4;
+  border-radius: 0px;
+  height: 24px;
+  background: #fff;
+}
+
+button, input {
+  font-family: 'Montserrat', 'Tahoma', sans-serif;
+  color: #fff;
+  background: #027ea4;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  height: 24px;
+}
+
+button:hover {
+  transition: background-color  0.5s ease;
+  background-color: #000;
+}
+
+input:hover {
+  transition: background-color  0.5s ease;
+  background-color: #000;
+}
+
+.map-options {
+  padding-left: 100px;
+}
+
+.stat-name {
+  color: #027ea4;
+}
+
+.pop-up-info h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.about-content-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.about-content {
+	padding-top: 30px;
+	text-align: left;
+	width: 600px;
+	margin: 0 auto;
+	font-weight: normal;
+}
+
+.about-content a {
+	text-decoration: none;
+  color: #027ea4;
+}
+
+.about-content a:hover {
+  color: #000;
+}

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   post '/get_day' => 'home#get_day'
 
-
+  get 'home/about' => 'home#about'
 
   resources :violations
   # The priority is based upon order of creation: first created -> highest priority.
