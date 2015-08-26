@@ -1,5 +1,0 @@
-    <ol>
-    <% @first_of_june.each do |v| %>
-      <li><%= v[:date] %></li>
-    <% end %>
-    </ol>
