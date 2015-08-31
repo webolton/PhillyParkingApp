@@ -25,4 +25,8 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  database: db/production.postgresql
+  database: phillytickets
+  username: phillytickets
+  host: localhost
+  encoding: unicode
+
